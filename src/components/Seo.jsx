@@ -2,8 +2,8 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
 const Seo = ({ title, description }) => {
-  const fullTitle = `${title} | Whitespace Trading Community`;
-  const siteName = "Whitespace Trading Community";
+  const fullTitle = `${title} | Profitix Academy`;
+  const siteName = "Profitix Academy";
 
   return (
     <Helmet>
