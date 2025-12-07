@@ -67,7 +67,7 @@ const ToolCard = ({ title, icon, gradient, isUnlocked, link }) => {
 const ToolsPage = () => {
   const { profile } = useAuth();
   const tools = [
-    { id: 'feed', title: 'NewsFeed', icon: Rss, gradient: 'bg-gradient-to-br from-pink-500 to-purple-600', accessKey: 'access_feed', link: '/tools/feed' },
+    //{ id: 'feed', title: 'NewsFeed', icon: Rss, gradient: 'bg-gradient-to-br from-pink-500 to-purple-600', accessKey: 'access_feed', link: '/tools/feed' },
     { id: 'economic-calendar', title: 'Economic Calendar', icon: Calendar, gradient: 'bg-gradient-to-br from-blue-500 to-teal-500', accessKey: 'access_economic_calendar', link: '/tools/economic-calendar' },
     { id: 'market-sentiment', title: 'Market Sentiment', icon: TrendingUp, gradient: 'bg-gradient-to-br from-purple-500 to-indigo-600', accessKey: 'access_market_sentiment', link: '/tools/market-sentiment' },
     { id: 'macro-analysis', title: 'Macro Analysis', icon: BarChart3, gradient: 'bg-gradient-to-br from-red-500 to-orange-500', accessKey: 'access_macro_analysis', link: '/tools/macro-analysis' },
