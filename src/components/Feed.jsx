@@ -19,7 +19,7 @@ const Feed = () => {
             </h1>
             <div className="flex-grow rounded-xl overflow-hidden backdrop-blur-sm border border-white/10">
               <iframe
-                src="MaiN Tain By Profitix"
+                src="https://jason.virtualfunction.net/tmp/financial_source_headlines_audio.html"
                 title="NewsFeed"
                 className="w-full h-full"
                 style={{ minHeight: "1500px", border: "none" }}
